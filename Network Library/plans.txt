@@ -1,0 +1,3 @@
+This current code is very lacking. It'll get the job done for something extremely simple, but it is missing some error reporting funtionality that would be useful. I think peer to peer is a great way to organize communication, but it does lack in ways to tell if all users are on the same page data wise. Also would be nice to be able to set up RPC type messages instead of just raw data.
+
+It's doubtful that any of the games will soon need this library, but it's worthwhile to note these flaws now.

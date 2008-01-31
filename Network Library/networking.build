@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<project name="Network" default="build" basedir=".">
+	<description>Networking library</description>
+	<property name="debug" value="true" overwrite="false" />
+	<target name="clean" description="remove all generated files">
+	    <delete file="Bin/Network.dll" failonerror="false" />
+	    <delete file="Bin/Network.dll.mdb" failonerror="false" />
+	</target>
+	<target name="build" description="compiles the source code">
+	    <csc target="library" output="Bin/NetworkLibrary.dll" debug="${debug}">
+		<sources>
+		    <includes name="Source/Client.cs" />
+		    <includes name="Source/Server.cs" />
+		    <includes name="Source/ServerConnection.cs" />
+		</sources>
+	    </csc>
+	</target>
+</project>
