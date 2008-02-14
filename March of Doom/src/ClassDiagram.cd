@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Comment CommentText="Tile System: Used to display A composed background, And used in layers to create the game worlds.">
+    <Position X="0.5" Y="3.448" Height="0.531" Width="3.721" />
+  </Comment>
+  <Comment CommentText="Sprite System: Used to draw Moving characters and objects such as vehicles.">
+    <Position X="5.979" Y="4.49" Height="0.615" Width="1.638" />
+  </Comment>
+  <Comment CommentText="Menu System: Used to draw Overlay Menu's in combat, and various other screens.">
+    <Position X="0.5" Y="5.552" Height="0.458" Width="3.71" />
+  </Comment>
+  <Class Name="HerolessWar.Tile" Collapsed="true">
+    <Position X="1.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Tile.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAABAAAIAAAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HerolessWar.TileGrid" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TileGrid.cs</FileName>
+      <HashCode>CAAgAAAAAAAAAgAAAAAAAAAAAAAEAAIAAAAAAAAIAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HerolessWar.TileMap" Collapsed="true">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TileMap.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAUAAAAIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HerolessWar.Frame" Collapsed="true">
+    <Position X="6" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Frame.cs</FileName>
+      <HashCode>AAAAAAAAAAACAAAAAAQAAAAAAAAAABAAAIAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HerolessWar.Animation" Collapsed="true">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Animation.cs</FileName>
+      <HashCode>AAAgAAAABAAAEgAAAAAAQAAAAABAAAAIAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HerolessWar.Sprite" Collapsed="true">
+    <Position X="5.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <FileName>Sprite.cs</FileName>
+      <HashCode>AAAgAAgAAAAAAgAAACAAAAAQAAAAAAAAAAAAAAAAACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HerolessWar.Menu">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Menu.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HerolessWar.MenuItem">
+    <Position X="2.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MenuItems.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>
