@@ -1,0 +1,1 @@
+It's important for some classes to have eactly one instance. Although there can be many priners in a system, there sould be only one printer spooler. Ther should be only one file system and one winow manager.
