@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromoGuru", "PromoGuru\PromoGuru.csproj", "{AE6C66D5-454F-48E5-9980-9F615FAA7479}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{6C9A8CFB-52ED-4BE5-B5D7-CF9AB2018AA2}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{E8A349B5-7C4A-423B-96D8-6247D1F88D19}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromoBusiness", "PromoBusiness\PromoBusiness.csproj", "{AB6BF29C-8AC3-4516-9B82-4586667B0A33}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PGAP", "PGAP\PGAP.csproj", "{026C036E-EDCD-4C0C-8027-243F5942ED19}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PGCatalog", "PGCatalog\PGCatalog.csproj", "{4F10F99C-D8B9-4348-9C20-286991F0AE5B}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE6C66D5-454F-48E5-9980-9F615FAA7479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6C66D5-454F-48E5-9980-9F615FAA7479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE6C66D5-454F-48E5-9980-9F615FAA7479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE6C66D5-454F-48E5-9980-9F615FAA7479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C9A8CFB-52ED-4BE5-B5D7-CF9AB2018AA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C9A8CFB-52ED-4BE5-B5D7-CF9AB2018AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C9A8CFB-52ED-4BE5-B5D7-CF9AB2018AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C9A8CFB-52ED-4BE5-B5D7-CF9AB2018AA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8A349B5-7C4A-423B-96D8-6247D1F88D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A349B5-7C4A-423B-96D8-6247D1F88D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A349B5-7C4A-423B-96D8-6247D1F88D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A349B5-7C4A-423B-96D8-6247D1F88D19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6BF29C-8AC3-4516-9B82-4586667B0A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6BF29C-8AC3-4516-9B82-4586667B0A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6BF29C-8AC3-4516-9B82-4586667B0A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6BF29C-8AC3-4516-9B82-4586667B0A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{026C036E-EDCD-4C0C-8027-243F5942ED19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026C036E-EDCD-4C0C-8027-243F5942ED19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026C036E-EDCD-4C0C-8027-243F5942ED19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026C036E-EDCD-4C0C-8027-243F5942ED19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F10F99C-D8B9-4348-9C20-286991F0AE5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F10F99C-D8B9-4348-9C20-286991F0AE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F10F99C-D8B9-4348-9C20-286991F0AE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F10F99C-D8B9-4348-9C20-286991F0AE5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

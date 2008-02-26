@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" CodeBehind="PGService.asmx.cs" Class="PGAP.PGService" %>
