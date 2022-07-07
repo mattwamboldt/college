@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Drawing;
 
-namespace HerolessWar
+namespace MarchODoom
 {
     public class Sprite
     {

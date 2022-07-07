@@ -1,4 +1,4 @@
-namespace HerolessWar
+namespace MarchODoom
 {
     partial class GameForm
     {

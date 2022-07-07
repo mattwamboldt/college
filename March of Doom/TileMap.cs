@@ -7,7 +7,7 @@ using System.Text;
 using System.IO;
 using System.Drawing;
 
-namespace HerolessWar
+namespace MarchODoom
 {
     public class TileMap
     {

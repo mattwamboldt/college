@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace HerolessWar
+namespace MarchODoom
 {
     static class Program
     {

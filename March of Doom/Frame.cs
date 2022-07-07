@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HerolessWar
+namespace MarchODoom
 {
     public class Frame
     {

@@ -5,9 +5,9 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
-using HerolessWar.Properties;
+using MarchODoom.Properties;
 
-namespace HerolessWar
+namespace MarchODoom
 {
     public partial class GameForm : Form
     {

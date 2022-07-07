@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Drawing;
 
-namespace HerolessWar
+namespace MarchODoom
 {
     //used to determine which animation to play
     public enum Direction
