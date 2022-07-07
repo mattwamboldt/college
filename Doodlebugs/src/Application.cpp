@@ -24,7 +24,7 @@ int main(){
 	//alters console window to fit perfectly
 	//and hides the cursor
 	SetConsoleCursorInfo(handle, &console_info);
-	SetConsoleTitle("Doodlebugs Vs. Ants");
+	SetConsoleTitleA("Doodlebugs Vs. Ants");
 	SetConsoleWindowInfo(handle, true, &screen_area);
 	SetConsoleScreenBufferSize(handle, new_size);
 

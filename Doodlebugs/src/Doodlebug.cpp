@@ -81,9 +81,8 @@ void Doodlebug::breed(){
 				break;
 		}
 		if( new_doodlebug_x != my_x_position || new_doodlebug_y != my_y_position ){
-			my_simulation->add_new_doodlebug(
-				Doodlebug(new_doodlebug_x, new_doodlebug_y, my_x_position,
-				my_y_position, my_simulation));
+			Doodlebug new_doodlebug = Doodlebug(new_doodlebug_x, my_y_position, my_x_position, my_y_position, my_simulation);
+			my_simulation->add_new_doodlebug(new_doodlebug);
 		}
 	}
 }

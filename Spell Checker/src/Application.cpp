@@ -13,9 +13,9 @@ int main()
 {
 	SpellChecker check;
 
-	if( check.LoadDictionary( "dictionary.txt" ) )
+	if( check.LoadDictionary( "data/dictionary.txt" ) )
 	{
-		if( check.LoadFileToCheck( "incorrectText.txt" ) )
+		if( check.LoadFileToCheck( "data/incorrectText.txt" ) )
 		{
 			//displays both to screen and a file
 			check.DisplayErrors( cout );

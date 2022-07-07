@@ -21,7 +21,7 @@ bool SpellChecker::LoadDictionary(string fileName)
 	input.close();
 
 	//writes the tree to disk for test purposes
-	ofstream treeOut( "dictTree.txt" );
+	ofstream treeOut( "data/dictTree.txt" );
 	treeOut << myDictionary;
 	treeOut.close();
 

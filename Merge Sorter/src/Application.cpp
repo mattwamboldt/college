@@ -30,7 +30,7 @@ int main( int argumentCount, char* argumentValues[] )
 	if( argumentCount != 4 || strcmp( argumentValues[2], "-field" ) )
 	{
 		cout << argumentCount << argumentValues[2] << endl;
-		cout << "Error, Usage:\n\t MergeSorter filename -field fieldnumber" << endl;
+		cout << "Error, Usage:\n\t MergeSort filename -field fieldnumber" << endl;
 		return -1;
 	}
 

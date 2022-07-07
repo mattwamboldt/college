@@ -57,7 +57,7 @@ int main( int argumentCount, char** argumentValues )
 			{
 				cout << "Can solve maze.\n";
 				maze.presentSolution(mapInput);
-				string sol = "solution.txt";
+				string sol = "data/solution.txt";
 				ofstream outStream(sol.c_str());
 				for( int i = 0; i < 51; i++ )
 				{
