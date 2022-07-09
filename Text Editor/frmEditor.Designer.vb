@@ -19,75 +19,75 @@ Partial Class frmEditor
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmEditor))
-        Me.mnsMain = New System.Windows.Forms.MenuStrip
-        Me.tmiFile = New System.Windows.Forms.ToolStripMenuItem
-        Me.fmiNew = New System.Windows.Forms.ToolStripMenuItem
-        Me.fmiOpen = New System.Windows.Forms.ToolStripMenuItem
-        Me.fmiSave = New System.Windows.Forms.ToolStripMenuItem
-        Me.fmiSaveAs = New System.Windows.Forms.ToolStripMenuItem
-        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator
-        Me.fmiPrintPreview = New System.Windows.Forms.ToolStripMenuItem
-        Me.fmiPrint = New System.Windows.Forms.ToolStripMenuItem
-        Me.fmiPageSetup = New System.Windows.Forms.ToolStripMenuItem
-        Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator
-        Me.fmiExit = New System.Windows.Forms.ToolStripMenuItem
-        Me.tmiEdit = New System.Windows.Forms.ToolStripMenuItem
-        Me.emiUndo = New System.Windows.Forms.ToolStripMenuItem
-        Me.emiRedo = New System.Windows.Forms.ToolStripMenuItem
-        Me.ToolStripSeparator7 = New System.Windows.Forms.ToolStripSeparator
-        Me.emiCut = New System.Windows.Forms.ToolStripMenuItem
-        Me.emiCopy = New System.Windows.Forms.ToolStripMenuItem
-        Me.emiPaste = New System.Windows.Forms.ToolStripMenuItem
-        Me.emiDelete = New System.Windows.Forms.ToolStripMenuItem
-        Me.ToolStripSeparator8 = New System.Windows.Forms.ToolStripSeparator
-        Me.emiSelectAll = New System.Windows.Forms.ToolStripMenuItem
-        Me.UnselectToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.ToolStripSeparator9 = New System.Windows.Forms.ToolStripSeparator
-        Me.emiFont = New System.Windows.Forms.ToolStripMenuItem
-        Me.emiColour = New System.Windows.Forms.ToolStripMenuItem
-        Me.tmiHelp = New System.Windows.Forms.ToolStripMenuItem
-        Me.hmiAbout = New System.Windows.Forms.ToolStripMenuItem
-        Me.rtxtData = New System.Windows.Forms.RichTextBox
+        Me.mnsMain = New System.Windows.Forms.MenuStrip()
+        Me.tmiFile = New System.Windows.Forms.ToolStripMenuItem()
+        Me.fmiNew = New System.Windows.Forms.ToolStripMenuItem()
+        Me.fmiOpen = New System.Windows.Forms.ToolStripMenuItem()
+        Me.fmiSave = New System.Windows.Forms.ToolStripMenuItem()
+        Me.fmiSaveAs = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.fmiPrintPreview = New System.Windows.Forms.ToolStripMenuItem()
+        Me.fmiPrint = New System.Windows.Forms.ToolStripMenuItem()
+        Me.fmiPageSetup = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
+        Me.fmiExit = New System.Windows.Forms.ToolStripMenuItem()
+        Me.tmiEdit = New System.Windows.Forms.ToolStripMenuItem()
+        Me.emiUndo = New System.Windows.Forms.ToolStripMenuItem()
+        Me.emiRedo = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator7 = New System.Windows.Forms.ToolStripSeparator()
+        Me.emiCut = New System.Windows.Forms.ToolStripMenuItem()
+        Me.emiCopy = New System.Windows.Forms.ToolStripMenuItem()
+        Me.emiPaste = New System.Windows.Forms.ToolStripMenuItem()
+        Me.emiDelete = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator8 = New System.Windows.Forms.ToolStripSeparator()
+        Me.emiSelectAll = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UnselectToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator9 = New System.Windows.Forms.ToolStripSeparator()
+        Me.emiFont = New System.Windows.Forms.ToolStripMenuItem()
+        Me.emiColour = New System.Windows.Forms.ToolStripMenuItem()
+        Me.tmiHelp = New System.Windows.Forms.ToolStripMenuItem()
+        Me.hmiAbout = New System.Windows.Forms.ToolStripMenuItem()
+        Me.rtxtData = New System.Windows.Forms.RichTextBox()
         Me.cmsTextEdit = New System.Windows.Forms.ContextMenuStrip(Me.components)
-        Me.cmsUndo = New System.Windows.Forms.ToolStripMenuItem
-        Me.cmsRedo = New System.Windows.Forms.ToolStripMenuItem
-        Me.ToolStripSeparator6 = New System.Windows.Forms.ToolStripSeparator
-        Me.cmsCut = New System.Windows.Forms.ToolStripMenuItem
-        Me.cmsCopy = New System.Windows.Forms.ToolStripMenuItem
-        Me.cmsPaste = New System.Windows.Forms.ToolStripMenuItem
-        Me.cmsDelete = New System.Windows.Forms.ToolStripMenuItem
-        Me.cmsBold = New System.Windows.Forms.ToolStripMenuItem
-        Me.cmsItalic = New System.Windows.Forms.ToolStripMenuItem
-        Me.cmsUnderline = New System.Windows.Forms.ToolStripMenuItem
-        Me.dlgColour = New System.Windows.Forms.ColorDialog
-        Me.dlgOpen = New System.Windows.Forms.OpenFileDialog
-        Me.dlgSave = New System.Windows.Forms.SaveFileDialog
-        Me.dlgFont = New System.Windows.Forms.FontDialog
-        Me.dlgPrint = New System.Windows.Forms.PrintDialog
-        Me.prntDoc = New System.Drawing.Printing.PrintDocument
-        Me.dlgPrintPreview = New System.Windows.Forms.PrintPreviewDialog
-        Me.dlgPageSetup = New System.Windows.Forms.PageSetupDialog
-        Me.tsMenu = New System.Windows.Forms.ToolStrip
-        Me.tmNew = New System.Windows.Forms.ToolStripButton
-        Me.tmOpen = New System.Windows.Forms.ToolStripButton
-        Me.tmSave = New System.Windows.Forms.ToolStripButton
-        Me.tmPrint = New System.Windows.Forms.ToolStripButton
-        Me.toolStripSeparator = New System.Windows.Forms.ToolStripSeparator
-        Me.tmCut = New System.Windows.Forms.ToolStripButton
-        Me.tmCopy = New System.Windows.Forms.ToolStripButton
-        Me.tmPaste = New System.Windows.Forms.ToolStripButton
-        Me.toolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator
-        Me.tmBold = New System.Windows.Forms.ToolStripButton
-        Me.tmItalic = New System.Windows.Forms.ToolStripButton
-        Me.tmUnderline = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator5 = New System.Windows.Forms.ToolStripSeparator
-        Me.tmAbout = New System.Windows.Forms.ToolStripButton
-        Me.ToolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator
-        Me.ssMain = New System.Windows.Forms.StatusStrip
-        Me.ssSelection = New System.Windows.Forms.ToolStripStatusLabel
-        Me.ssDateTime = New System.Windows.Forms.ToolStripStatusLabel
+        Me.cmsUndo = New System.Windows.Forms.ToolStripMenuItem()
+        Me.cmsRedo = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator6 = New System.Windows.Forms.ToolStripSeparator()
+        Me.cmsCut = New System.Windows.Forms.ToolStripMenuItem()
+        Me.cmsCopy = New System.Windows.Forms.ToolStripMenuItem()
+        Me.cmsPaste = New System.Windows.Forms.ToolStripMenuItem()
+        Me.cmsDelete = New System.Windows.Forms.ToolStripMenuItem()
+        Me.cmsBold = New System.Windows.Forms.ToolStripMenuItem()
+        Me.cmsItalic = New System.Windows.Forms.ToolStripMenuItem()
+        Me.cmsUnderline = New System.Windows.Forms.ToolStripMenuItem()
+        Me.dlgColour = New System.Windows.Forms.ColorDialog()
+        Me.dlgOpen = New System.Windows.Forms.OpenFileDialog()
+        Me.dlgSave = New System.Windows.Forms.SaveFileDialog()
+        Me.dlgFont = New System.Windows.Forms.FontDialog()
+        Me.dlgPrint = New System.Windows.Forms.PrintDialog()
+        Me.prntDoc = New System.Drawing.Printing.PrintDocument()
+        Me.dlgPrintPreview = New System.Windows.Forms.PrintPreviewDialog()
+        Me.dlgPageSetup = New System.Windows.Forms.PageSetupDialog()
+        Me.tsMenu = New System.Windows.Forms.ToolStrip()
+        Me.tmNew = New System.Windows.Forms.ToolStripButton()
+        Me.tmOpen = New System.Windows.Forms.ToolStripButton()
+        Me.tmSave = New System.Windows.Forms.ToolStripButton()
+        Me.tmPrint = New System.Windows.Forms.ToolStripButton()
+        Me.toolStripSeparator = New System.Windows.Forms.ToolStripSeparator()
+        Me.tmCut = New System.Windows.Forms.ToolStripButton()
+        Me.tmCopy = New System.Windows.Forms.ToolStripButton()
+        Me.tmPaste = New System.Windows.Forms.ToolStripButton()
+        Me.toolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
+        Me.tmBold = New System.Windows.Forms.ToolStripButton()
+        Me.tmItalic = New System.Windows.Forms.ToolStripButton()
+        Me.tmUnderline = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator5 = New System.Windows.Forms.ToolStripSeparator()
+        Me.tmAbout = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ssMain = New System.Windows.Forms.StatusStrip()
+        Me.ssSelection = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.ssDateTime = New System.Windows.Forms.ToolStripStatusLabel()
         Me.tDate = New System.Windows.Forms.Timer(Me.components)
         Me.mnsMain.SuspendLayout()
         Me.cmsTextEdit.SuspendLayout()
@@ -112,21 +112,21 @@ Partial Class frmEditor
         Me.tmiFile.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
         Me.tmiFile.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.fmiNew, Me.fmiOpen, Me.fmiSave, Me.fmiSaveAs, Me.ToolStripSeparator1, Me.fmiPrintPreview, Me.fmiPrint, Me.fmiPageSetup, Me.ToolStripSeparator2, Me.fmiExit})
         Me.tmiFile.Name = "tmiFile"
-        Me.tmiFile.Size = New System.Drawing.Size(35, 20)
+        Me.tmiFile.Size = New System.Drawing.Size(37, 20)
         Me.tmiFile.Text = "&File"
         '
         'fmiNew
         '
         Me.fmiNew.Name = "fmiNew"
         Me.fmiNew.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.N), System.Windows.Forms.Keys)
-        Me.fmiNew.Size = New System.Drawing.Size(204, 22)
+        Me.fmiNew.Size = New System.Drawing.Size(195, 22)
         Me.fmiNew.Text = "&New"
         '
         'fmiOpen
         '
         Me.fmiOpen.Name = "fmiOpen"
         Me.fmiOpen.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.O), System.Windows.Forms.Keys)
-        Me.fmiOpen.Size = New System.Drawing.Size(204, 22)
+        Me.fmiOpen.Size = New System.Drawing.Size(195, 22)
         Me.fmiOpen.Text = "&Open..."
         '
         'fmiSave
@@ -134,7 +134,7 @@ Partial Class frmEditor
         Me.fmiSave.Enabled = False
         Me.fmiSave.Name = "fmiSave"
         Me.fmiSave.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.S), System.Windows.Forms.Keys)
-        Me.fmiSave.Size = New System.Drawing.Size(204, 22)
+        Me.fmiSave.Size = New System.Drawing.Size(195, 22)
         Me.fmiSave.Text = "&Save"
         '
         'fmiSaveAs
@@ -142,20 +142,20 @@ Partial Class frmEditor
         Me.fmiSaveAs.Enabled = False
         Me.fmiSaveAs.Name = "fmiSaveAs"
         Me.fmiSaveAs.ShortcutKeys = CType(((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Shift) _
-                    Or System.Windows.Forms.Keys.S), System.Windows.Forms.Keys)
-        Me.fmiSaveAs.Size = New System.Drawing.Size(204, 22)
+            Or System.Windows.Forms.Keys.S), System.Windows.Forms.Keys)
+        Me.fmiSaveAs.Size = New System.Drawing.Size(195, 22)
         Me.fmiSaveAs.Text = "Save &As..."
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(201, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(192, 6)
         '
         'fmiPrintPreview
         '
         Me.fmiPrintPreview.Enabled = False
         Me.fmiPrintPreview.Name = "fmiPrintPreview"
-        Me.fmiPrintPreview.Size = New System.Drawing.Size(204, 22)
+        Me.fmiPrintPreview.Size = New System.Drawing.Size(195, 22)
         Me.fmiPrintPreview.Text = "Print Pre&view"
         '
         'fmiPrint
@@ -163,25 +163,25 @@ Partial Class frmEditor
         Me.fmiPrint.Enabled = False
         Me.fmiPrint.Name = "fmiPrint"
         Me.fmiPrint.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.P), System.Windows.Forms.Keys)
-        Me.fmiPrint.Size = New System.Drawing.Size(204, 22)
+        Me.fmiPrint.Size = New System.Drawing.Size(195, 22)
         Me.fmiPrint.Text = "&Print"
         '
         'fmiPageSetup
         '
         Me.fmiPageSetup.Enabled = False
         Me.fmiPageSetup.Name = "fmiPageSetup"
-        Me.fmiPageSetup.Size = New System.Drawing.Size(204, 22)
+        Me.fmiPageSetup.Size = New System.Drawing.Size(195, 22)
         Me.fmiPageSetup.Text = "Page Setup"
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(201, 6)
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(192, 6)
         '
         'fmiExit
         '
         Me.fmiExit.Name = "fmiExit"
-        Me.fmiExit.Size = New System.Drawing.Size(204, 22)
+        Me.fmiExit.Size = New System.Drawing.Size(195, 22)
         Me.fmiExit.Text = "E&xit"
         '
         'tmiEdit
@@ -190,7 +190,7 @@ Partial Class frmEditor
         Me.tmiEdit.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.emiUndo, Me.emiRedo, Me.ToolStripSeparator7, Me.emiCut, Me.emiCopy, Me.emiPaste, Me.emiDelete, Me.ToolStripSeparator8, Me.emiSelectAll, Me.UnselectToolStripMenuItem, Me.ToolStripSeparator9, Me.emiFont, Me.emiColour})
         Me.tmiEdit.Enabled = False
         Me.tmiEdit.Name = "tmiEdit"
-        Me.tmiEdit.Size = New System.Drawing.Size(37, 20)
+        Me.tmiEdit.Size = New System.Drawing.Size(39, 20)
         Me.tmiEdit.Text = "&Edit"
         Me.tmiEdit.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
         '
@@ -198,101 +198,101 @@ Partial Class frmEditor
         '
         Me.emiUndo.Name = "emiUndo"
         Me.emiUndo.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Z), System.Windows.Forms.Keys)
-        Me.emiUndo.Size = New System.Drawing.Size(197, 22)
+        Me.emiUndo.Size = New System.Drawing.Size(193, 22)
         Me.emiUndo.Text = "&Undo"
         '
         'emiRedo
         '
         Me.emiRedo.Name = "emiRedo"
         Me.emiRedo.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Y), System.Windows.Forms.Keys)
-        Me.emiRedo.Size = New System.Drawing.Size(197, 22)
+        Me.emiRedo.Size = New System.Drawing.Size(193, 22)
         Me.emiRedo.Text = "&Redo"
         '
         'ToolStripSeparator7
         '
         Me.ToolStripSeparator7.Name = "ToolStripSeparator7"
-        Me.ToolStripSeparator7.Size = New System.Drawing.Size(194, 6)
+        Me.ToolStripSeparator7.Size = New System.Drawing.Size(190, 6)
         '
         'emiCut
         '
         Me.emiCut.Name = "emiCut"
         Me.emiCut.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.X), System.Windows.Forms.Keys)
-        Me.emiCut.Size = New System.Drawing.Size(197, 22)
+        Me.emiCut.Size = New System.Drawing.Size(193, 22)
         Me.emiCut.Text = "Cu&t"
         '
         'emiCopy
         '
         Me.emiCopy.Name = "emiCopy"
         Me.emiCopy.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
-        Me.emiCopy.Size = New System.Drawing.Size(197, 22)
+        Me.emiCopy.Size = New System.Drawing.Size(193, 22)
         Me.emiCopy.Text = "&Copy"
         '
         'emiPaste
         '
         Me.emiPaste.Name = "emiPaste"
         Me.emiPaste.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.V), System.Windows.Forms.Keys)
-        Me.emiPaste.Size = New System.Drawing.Size(197, 22)
+        Me.emiPaste.Size = New System.Drawing.Size(193, 22)
         Me.emiPaste.Text = "&Paste"
         '
         'emiDelete
         '
         Me.emiDelete.Name = "emiDelete"
         Me.emiDelete.ShortcutKeys = System.Windows.Forms.Keys.Delete
-        Me.emiDelete.Size = New System.Drawing.Size(197, 22)
+        Me.emiDelete.Size = New System.Drawing.Size(193, 22)
         Me.emiDelete.Text = "&Delete"
         '
         'ToolStripSeparator8
         '
         Me.ToolStripSeparator8.Name = "ToolStripSeparator8"
-        Me.ToolStripSeparator8.Size = New System.Drawing.Size(194, 6)
+        Me.ToolStripSeparator8.Size = New System.Drawing.Size(190, 6)
         '
         'emiSelectAll
         '
         Me.emiSelectAll.Name = "emiSelectAll"
         Me.emiSelectAll.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.A), System.Windows.Forms.Keys)
-        Me.emiSelectAll.Size = New System.Drawing.Size(197, 22)
+        Me.emiSelectAll.Size = New System.Drawing.Size(193, 22)
         Me.emiSelectAll.Text = "Select &All"
         '
         'UnselectToolStripMenuItem
         '
         Me.UnselectToolStripMenuItem.Name = "UnselectToolStripMenuItem"
         Me.UnselectToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.D), System.Windows.Forms.Keys)
-        Me.UnselectToolStripMenuItem.Size = New System.Drawing.Size(197, 22)
+        Me.UnselectToolStripMenuItem.Size = New System.Drawing.Size(193, 22)
         Me.UnselectToolStripMenuItem.Text = "Un&select"
         '
         'ToolStripSeparator9
         '
         Me.ToolStripSeparator9.Name = "ToolStripSeparator9"
-        Me.ToolStripSeparator9.Size = New System.Drawing.Size(194, 6)
+        Me.ToolStripSeparator9.Size = New System.Drawing.Size(190, 6)
         '
         'emiFont
         '
         Me.emiFont.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
         Me.emiFont.Name = "emiFont"
         Me.emiFont.ShortcutKeys = CType(((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Shift) _
-                    Or System.Windows.Forms.Keys.F), System.Windows.Forms.Keys)
-        Me.emiFont.Size = New System.Drawing.Size(197, 22)
+            Or System.Windows.Forms.Keys.F), System.Windows.Forms.Keys)
+        Me.emiFont.Size = New System.Drawing.Size(193, 22)
         Me.emiFont.Text = "&Font..."
         '
         'emiColour
         '
         Me.emiColour.Name = "emiColour"
         Me.emiColour.ShortcutKeys = CType(((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Shift) _
-                    Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
-        Me.emiColour.Size = New System.Drawing.Size(197, 22)
+            Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
+        Me.emiColour.Size = New System.Drawing.Size(193, 22)
         Me.emiColour.Text = "Co&lour..."
         '
         'tmiHelp
         '
         Me.tmiHelp.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.hmiAbout})
         Me.tmiHelp.Name = "tmiHelp"
-        Me.tmiHelp.Size = New System.Drawing.Size(40, 20)
+        Me.tmiHelp.Size = New System.Drawing.Size(44, 20)
         Me.tmiHelp.Text = "&Help"
         '
         'hmiAbout
         '
         Me.hmiAbout.Name = "hmiAbout"
-        Me.hmiAbout.Size = New System.Drawing.Size(114, 22)
+        Me.hmiAbout.Size = New System.Drawing.Size(107, 22)
         Me.hmiAbout.Text = "&About"
         '
         'rtxtData
@@ -318,14 +318,14 @@ Partial Class frmEditor
         Me.cmsTextEdit.Name = "cmsTextEdit"
         Me.cmsTextEdit.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
         Me.cmsTextEdit.ShowItemToolTips = False
-        Me.cmsTextEdit.Size = New System.Drawing.Size(118, 208)
+        Me.cmsTextEdit.Size = New System.Drawing.Size(110, 208)
         '
         'cmsUndo
         '
         Me.cmsUndo.Name = "cmsUndo"
         Me.cmsUndo.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Z), System.Windows.Forms.Keys)
         Me.cmsUndo.ShowShortcutKeys = False
-        Me.cmsUndo.Size = New System.Drawing.Size(117, 22)
+        Me.cmsUndo.Size = New System.Drawing.Size(109, 22)
         Me.cmsUndo.Text = "&Undo"
         '
         'cmsRedo
@@ -333,20 +333,20 @@ Partial Class frmEditor
         Me.cmsRedo.Name = "cmsRedo"
         Me.cmsRedo.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Y), System.Windows.Forms.Keys)
         Me.cmsRedo.ShowShortcutKeys = False
-        Me.cmsRedo.Size = New System.Drawing.Size(117, 22)
+        Me.cmsRedo.Size = New System.Drawing.Size(109, 22)
         Me.cmsRedo.Text = "&Redo"
         '
         'ToolStripSeparator6
         '
         Me.ToolStripSeparator6.Name = "ToolStripSeparator6"
-        Me.ToolStripSeparator6.Size = New System.Drawing.Size(114, 6)
+        Me.ToolStripSeparator6.Size = New System.Drawing.Size(106, 6)
         '
         'cmsCut
         '
         Me.cmsCut.Name = "cmsCut"
         Me.cmsCut.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.X), System.Windows.Forms.Keys)
         Me.cmsCut.ShowShortcutKeys = False
-        Me.cmsCut.Size = New System.Drawing.Size(117, 22)
+        Me.cmsCut.Size = New System.Drawing.Size(109, 22)
         Me.cmsCut.Text = "Cu&t"
         '
         'cmsCopy
@@ -354,7 +354,7 @@ Partial Class frmEditor
         Me.cmsCopy.Name = "cmsCopy"
         Me.cmsCopy.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
         Me.cmsCopy.ShowShortcutKeys = False
-        Me.cmsCopy.Size = New System.Drawing.Size(117, 22)
+        Me.cmsCopy.Size = New System.Drawing.Size(109, 22)
         Me.cmsCopy.Text = "&Copy"
         '
         'cmsPaste
@@ -362,7 +362,7 @@ Partial Class frmEditor
         Me.cmsPaste.Name = "cmsPaste"
         Me.cmsPaste.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.V), System.Windows.Forms.Keys)
         Me.cmsPaste.ShowShortcutKeys = False
-        Me.cmsPaste.Size = New System.Drawing.Size(117, 22)
+        Me.cmsPaste.Size = New System.Drawing.Size(109, 22)
         Me.cmsPaste.Text = "&Paste"
         '
         'cmsDelete
@@ -370,28 +370,28 @@ Partial Class frmEditor
         Me.cmsDelete.Name = "cmsDelete"
         Me.cmsDelete.ShortcutKeys = System.Windows.Forms.Keys.Delete
         Me.cmsDelete.ShowShortcutKeys = False
-        Me.cmsDelete.Size = New System.Drawing.Size(117, 22)
+        Me.cmsDelete.Size = New System.Drawing.Size(109, 22)
         Me.cmsDelete.Text = "&Delete"
         '
         'cmsBold
         '
         Me.cmsBold.Name = "cmsBold"
         Me.cmsBold.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.B), System.Windows.Forms.Keys)
-        Me.cmsBold.Size = New System.Drawing.Size(117, 22)
+        Me.cmsBold.Size = New System.Drawing.Size(109, 22)
         Me.cmsBold.Visible = False
         '
         'cmsItalic
         '
         Me.cmsItalic.Name = "cmsItalic"
         Me.cmsItalic.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.I), System.Windows.Forms.Keys)
-        Me.cmsItalic.Size = New System.Drawing.Size(117, 22)
+        Me.cmsItalic.Size = New System.Drawing.Size(109, 22)
         Me.cmsItalic.Visible = False
         '
         'cmsUnderline
         '
         Me.cmsUnderline.Name = "cmsUnderline"
         Me.cmsUnderline.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.U), System.Windows.Forms.Keys)
-        Me.cmsUnderline.Size = New System.Drawing.Size(117, 22)
+        Me.cmsUnderline.Size = New System.Drawing.Size(109, 22)
         Me.cmsUnderline.Visible = False
         '
         'dlgColour
@@ -402,8 +402,8 @@ Partial Class frmEditor
         'dlgOpen
         '
         Me.dlgOpen.DefaultExt = "rtf"
-        Me.dlgOpen.Filter = "Hero's Text (.htxt)|*.htxt|Rich Text(.rtf)|*.rtf|Plain Text(.txt)|*.txt|All files" & _
-            "|*.*"
+        Me.dlgOpen.Filter = "Hero's Text (.htxt)|*.htxt|Rich Text(.rtf)|*.rtf|Plain Text(.txt)|*.txt|All files" &
+    "|*.*"
         Me.dlgOpen.Title = "Open"
         '
         'dlgSave
@@ -462,7 +462,7 @@ Partial Class frmEditor
         'tmNew
         '
         Me.tmNew.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.tmNew.Image = CType(resources.GetObject("tmNew.Image"), System.Drawing.Image)
+        Me.tmNew.Image = Global.TextEditor.My.Resources.Resources.icons8_add_file_32
         Me.tmNew.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tmNew.Name = "tmNew"
         Me.tmNew.Size = New System.Drawing.Size(23, 22)
@@ -471,7 +471,7 @@ Partial Class frmEditor
         'tmOpen
         '
         Me.tmOpen.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.tmOpen.Image = CType(resources.GetObject("tmOpen.Image"), System.Drawing.Image)
+        Me.tmOpen.Image = Global.TextEditor.My.Resources.Resources.icons8_folder_24
         Me.tmOpen.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tmOpen.Name = "tmOpen"
         Me.tmOpen.Size = New System.Drawing.Size(23, 22)
@@ -481,7 +481,7 @@ Partial Class frmEditor
         '
         Me.tmSave.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.tmSave.Enabled = False
-        Me.tmSave.Image = CType(resources.GetObject("tmSave.Image"), System.Drawing.Image)
+        Me.tmSave.Image = Global.TextEditor.My.Resources.Resources.icons8_save_32
         Me.tmSave.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tmSave.Name = "tmSave"
         Me.tmSave.Size = New System.Drawing.Size(23, 22)
@@ -491,7 +491,7 @@ Partial Class frmEditor
         '
         Me.tmPrint.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.tmPrint.Enabled = False
-        Me.tmPrint.Image = CType(resources.GetObject("tmPrint.Image"), System.Drawing.Image)
+        Me.tmPrint.Image = Global.TextEditor.My.Resources.Resources.icons8_printer_32
         Me.tmPrint.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tmPrint.Name = "tmPrint"
         Me.tmPrint.Size = New System.Drawing.Size(23, 22)
@@ -506,7 +506,7 @@ Partial Class frmEditor
         '
         Me.tmCut.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.tmCut.Enabled = False
-        Me.tmCut.Image = CType(resources.GetObject("tmCut.Image"), System.Drawing.Image)
+        Me.tmCut.Image = Global.TextEditor.My.Resources.Resources.icons8_cut_30
         Me.tmCut.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tmCut.Name = "tmCut"
         Me.tmCut.Size = New System.Drawing.Size(23, 22)
@@ -516,7 +516,7 @@ Partial Class frmEditor
         '
         Me.tmCopy.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.tmCopy.Enabled = False
-        Me.tmCopy.Image = CType(resources.GetObject("tmCopy.Image"), System.Drawing.Image)
+        Me.tmCopy.Image = Global.TextEditor.My.Resources.Resources.icons8_copy_32
         Me.tmCopy.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tmCopy.Name = "tmCopy"
         Me.tmCopy.Size = New System.Drawing.Size(23, 22)
@@ -526,7 +526,7 @@ Partial Class frmEditor
         '
         Me.tmPaste.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.tmPaste.Enabled = False
-        Me.tmPaste.Image = CType(resources.GetObject("tmPaste.Image"), System.Drawing.Image)
+        Me.tmPaste.Image = Global.TextEditor.My.Resources.Resources.icons8_paste_32
         Me.tmPaste.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tmPaste.Name = "tmPaste"
         Me.tmPaste.Size = New System.Drawing.Size(23, 22)
@@ -542,7 +542,7 @@ Partial Class frmEditor
         Me.tmBold.CheckOnClick = True
         Me.tmBold.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.tmBold.Enabled = False
-        Me.tmBold.Image = CType(resources.GetObject("tmBold.Image"), System.Drawing.Image)
+        Me.tmBold.Image = Global.TextEditor.My.Resources.Resources.icons8_bold_50
         Me.tmBold.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tmBold.Name = "tmBold"
         Me.tmBold.Size = New System.Drawing.Size(23, 22)
@@ -553,7 +553,7 @@ Partial Class frmEditor
         Me.tmItalic.CheckOnClick = True
         Me.tmItalic.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.tmItalic.Enabled = False
-        Me.tmItalic.Image = CType(resources.GetObject("tmItalic.Image"), System.Drawing.Image)
+        Me.tmItalic.Image = Global.TextEditor.My.Resources.Resources.icons8_italic_24
         Me.tmItalic.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tmItalic.Name = "tmItalic"
         Me.tmItalic.Size = New System.Drawing.Size(23, 22)
@@ -564,7 +564,7 @@ Partial Class frmEditor
         Me.tmUnderline.CheckOnClick = True
         Me.tmUnderline.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.tmUnderline.Enabled = False
-        Me.tmUnderline.Image = CType(resources.GetObject("tmUnderline.Image"), System.Drawing.Image)
+        Me.tmUnderline.Image = Global.TextEditor.My.Resources.Resources.icons8_underline_50
         Me.tmUnderline.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tmUnderline.Name = "tmUnderline"
         Me.tmUnderline.Size = New System.Drawing.Size(23, 22)
@@ -578,7 +578,7 @@ Partial Class frmEditor
         'tmAbout
         '
         Me.tmAbout.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.tmAbout.Image = CType(resources.GetObject("tmAbout.Image"), System.Drawing.Image)
+        Me.tmAbout.Image = Global.TextEditor.My.Resources.Resources.icons8_help_24
         Me.tmAbout.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.tmAbout.Name = "tmAbout"
         Me.tmAbout.Size = New System.Drawing.Size(23, 22)
@@ -601,8 +601,8 @@ Partial Class frmEditor
         'ssSelection
         '
         Me.ssSelection.BorderSides = CType((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left Or System.Windows.Forms.ToolStripStatusLabelBorderSides.Top) _
-                    Or System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) _
-                    Or System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom), System.Windows.Forms.ToolStripStatusLabelBorderSides)
+            Or System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) _
+            Or System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom), System.Windows.Forms.ToolStripStatusLabelBorderSides)
         Me.ssSelection.BorderStyle = System.Windows.Forms.Border3DStyle.SunkenOuter
         Me.ssSelection.Name = "ssSelection"
         Me.ssSelection.Size = New System.Drawing.Size(388, 17)
@@ -612,8 +612,8 @@ Partial Class frmEditor
         'ssDateTime
         '
         Me.ssDateTime.BorderSides = CType((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left Or System.Windows.Forms.ToolStripStatusLabelBorderSides.Top) _
-                    Or System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) _
-                    Or System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom), System.Windows.Forms.ToolStripStatusLabelBorderSides)
+            Or System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) _
+            Or System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom), System.Windows.Forms.ToolStripStatusLabelBorderSides)
         Me.ssDateTime.BorderStyle = System.Windows.Forms.Border3DStyle.SunkenOuter
         Me.ssDateTime.Name = "ssDateTime"
         Me.ssDateTime.Size = New System.Drawing.Size(388, 17)
@@ -634,7 +634,6 @@ Partial Class frmEditor
         Me.Controls.Add(Me.ssMain)
         Me.Controls.Add(Me.tsMenu)
         Me.Controls.Add(Me.mnsMain)
-        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.mnsMain
         Me.Name = "frmEditor"

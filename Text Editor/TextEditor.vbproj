@@ -137,5 +137,18 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-file-32.png" />
+    <None Include="Resources\icons8-save-32.png" />
+    <None Include="Resources\icons8-bold-50.png" />
+    <None Include="Resources\icons8-copy-32.png" />
+    <None Include="Resources\icons8-cut-30.png" />
+    <None Include="Resources\icons8-folder-24.png" />
+    <None Include="Resources\icons8-help-24.png" />
+    <None Include="Resources\icons8-italic-24.png" />
+    <None Include="Resources\icons8-paste-32.png" />
+    <None Include="Resources\icons8-printer-32.png" />
+    <None Include="Resources\icons8-underline-50.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
